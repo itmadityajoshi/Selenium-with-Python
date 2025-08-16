@@ -8,6 +8,7 @@ driver.get('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 driver.maximize_window()  # this maximize the window tab
 # driver.fullscreen_window() #this will make page to full screen
 # driver.minimize_window() #this will minimize the screen.
+print(driver.title)
 time.sleep(5)
 driver.find_element(By.CSS_SELECTOR, '.oxd-text.oxd-text--p.orangehrm-login-forgot-header').click()
 time.sleep(5)
