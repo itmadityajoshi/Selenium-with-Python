@@ -10,8 +10,7 @@ driver.maximize_window()
 time.sleep(3)
 
 #Login into the site
-driver.find_element(By.ID, 'user-name').send_keys('standard_user')
-time.sleep(3)
+driver.find_element(By.XPATH, "//input[@id='user-name']").send_keys('standard_user')
 driver.find_element(By.ID, 'password').send_keys('secret_sauce')
 time.sleep(3)
 
