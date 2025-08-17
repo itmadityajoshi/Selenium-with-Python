@@ -12,4 +12,3 @@ time.sleep(5)
 driver.find_element(By.XPATH, "//div[7]//div[1]//div[1]//div[2]//input[1]").click()
 time.sleep(3)
 driver.quit()
-
